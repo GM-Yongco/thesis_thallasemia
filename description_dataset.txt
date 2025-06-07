@@ -1,0 +1,56 @@
+==================================================
+FROM KAGGLE
+==================================================
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
+age
+sex
+chest pain type (4 values)
+resting blood pressure
+serum cholestoral in mg/dl
+fasting blood sugar > 120 mg/dl
+resting electrocardiographic results (values 0,1,2)
+maximum heart rate achieved
+exercise induced angina
+oldpeak = ST depression induced by exercise relative to rest
+the slope of the peak exercise ST segment
+number of major vessels (0-3) colored by flourosopy
+thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
+
+==================================================
+FROM ARCHIVE
+==================================================
+https://archive.ics.uci.edu/dataset/45/heart+disease
+
+age, 
+sex, 
+chest pain type 
+	Value 1: typical angina, 
+	Value 2: atypical angina
+	Value 3: non-anginal pain
+	Value 4: asymptomatic
+treps(resting blood pressure in mm Hg on admission to the hospital)
+Chol		: serum cholesterol in mg/dl
+Fasting blood sugar
+	Value 0: <=120 mg/dl
+	Value 1: > 120 mg/dl
+Restecg	: resting electrocardiographic results
+	Value 0: normal
+	Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+	Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+Thalach	: maximum heart rate achieved
+Exang		: exercise induced angina (1 = yes; 0 = no)
+Oldpeak	: ST depression induced by exercise relative to rest
+slope: the slope of the peak exercise ST segment
+	Value 1: upsloping
+	Value 2: flat
+	Value 3: downsloping
+Ca		: number of major vessels (0-3) colored by fluoroscopy
+Thalassemia	: 
+	Value 3 = normal
+	Value 6 = fixed defect
+	Value 7 = reversible defect
+num: diagnosis of heart disease (angiographic disease status)
+	Value 0: < 50% diameter narrowing
+	Value 1: > 50% diameter narrowing
