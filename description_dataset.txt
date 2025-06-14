@@ -19,6 +19,11 @@ thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 
 The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
 
+NOTE
+the thal values are 0, 1, 2, 3 for some reason
+LIKE WHAT, lil shite, kaggle said only 1, 2, 3
+WHY ARE THERE 4
+
 ==================================================
 FROM ARCHIVE
 ==================================================
