@@ -1,4 +1,7 @@
 jupyterlab
 seaborn
+    matplot
+numpy 
+pandas
+scikit-learn
 shap
-scikit
